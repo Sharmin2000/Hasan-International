@@ -36,7 +36,7 @@ header.sticky {
 }
 .row1 {
   text-align: center;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
 .row1 h1 {
   text-align: center;
@@ -52,9 +52,9 @@ header.sticky {
 }
 .menu-bar {
   padding: 0px;
-  margin-top: -65px;
+  /* margin-top: -65px; */
   text-align: center;
-  margin-left: 130px;
+  /* margin-left: 130px; */
 }
 .menu-bar ul {
   list-style: none;
@@ -198,7 +198,6 @@ header.sticky {
 .w1 img {
   margin-left: 15px;
   padding-left: 50px;
-  #000;
   width: 320px;
   height: 240px;
 }
@@ -227,7 +226,6 @@ header.sticky {
   margin-left: 15px;
   padding-left: 50px;
   width: 320px;
-   #000;
   height: 240px;
 }
 .w3 h3 {
@@ -301,7 +299,7 @@ header.sticky {
   text-align: center;
   font-size: 30px;
   margin-top: -95px;
-  color: #EAB543;
+  color: #eab543;
 }
 .product .column {
   float: left;
@@ -352,7 +350,7 @@ header.sticky {
   text-align: center;
   font-size: 30px;
   margin-top: -10px;
-  color: #F97F51;
+  color: #f97f51;
 }
 .review .column {
   float: left;
@@ -513,3 +511,32 @@ footer a {
   text-decoration: none;
   color: #5f27cd;
 }
+.my_h1 {
+  font-size: 40px;
+  text-align: center;
+  font-size: 40px;
+  /* padding: 20px; */
+}
+.my_h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.my_h4{
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1224px) {
+  
+}
+
+
+@media only screen and (max-width: 768px) {
+  
+}
+
+@media only screen and (max-width: 339px) {
+  
+}
+
