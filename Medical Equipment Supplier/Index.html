@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
@@ -15,33 +16,43 @@
 <body>
     <!------------------------------------------------- Header ----------------------------------------------- -->
     <header>                                
-        <div class="container">
-            <div class="content">
-                <div class="row row1">
-                    <a href="Index.html" class="logo"><img src="image/Logo.png" alt="Logo"></a>
-                    <h1>Hasan International FZE</h1>
-                    <p>Engineered & Manufactured of Medical Equipment and Water Treatment Plant</p>
-                </div>
-                <div class="row">
-                    <div class="navigation">
-                        <div class="menu-bar">
-                            <ul>
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="what-we-do.html">What We Do</a>
-                                  
-                                </li>
-                                <li><a href="our-work.html">Our Work</a></li>
-                                <li><a href="product.html">Product</a>
-                                    
-                                <li><a href="revew.html">Review</a></li>
-                                <li><a href="our-services.html">Our Services</a></li>
-                                <li><a href="contact-us.html">Contact Us</a></li>
-                            </ul>
+            <div class="container">
+                <div class="content ">
+                    <div class="row row1">
+                        <a href="index.html" class="logo">
+                            <img src="image/Logo.png" alt="Logo"></a>
+                        <h1 class="my_h1">Hasan International FZE</h1>
+                        <h4 class="my_h4">Engineered & Manufactured of Medical Equipment and Water Treatment Plant</h4>
+                    </div>
+                    <div class="flex">
+
+                        <div class="row">
+                            <div class="navigation flex">
+                                <div class="menu-bar">
+                                    <ul>
+                                        <li><a href="/">Home</a></li>
+                                        <!-- <li><a href="our-work.html">Our Work</a></li> -->
+                                        <li><a href="about-us.html">About Us</a></li>
+                                        <li><a href="product.html">Product</a></li>
+                                        <li><a href="our-services.html">Services</a></li>
+                                        <!-- <li><a href="revew.html">Review</a></li> -->
+                                        <li><a href="our-work.html">Brand</a></li>
+                                        <li><a href="contact-us.html">Contact Us</a></li>
+        
+                                    </ul>
+                                </div>
+                                <div class="search-box flex items-center">
+                                    <input type="text" placeholder="Search" class="w-40 px-2 py-1 rounded-l-lg border-2 border-r-0 border-gray-300 focus:outline-none">
+                                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded-r-lg">
+                                    <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>
-        </div>
     </header>
     <section class="banner" id="home">
     <div class="texbx">
@@ -52,15 +63,14 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Suspendisse mattis orci dapibus risus dignissim, viverra  pellentesque arcu ullamcorper. Mauris a tincidunt lectus. Proin nec venenatis quam. </p>
         <a href="#product.html" class="btn">LET'S START</a>
         </div>
-    </section>
-    <!--------------------------------------------------    What We Do  -------------------------------     -->
+        <!--------------------------------------------------    What We Do  -------------------------------     -->
+    <!-- </section>
         <div class="container">
             <div class="content">
                 <div class="row">
-                    <h2>What We Do</h2>
-                    
+                    <h2 class="my_h2">New Product</h2>
                 </div>
-                <div class="row">
+                <div class="row ">
                     <div class="column w1">
                         <img src="image/imp.jpg" alt="">
                         <h3>Importer</h3>
@@ -69,7 +79,7 @@
                     <div class="column w2">
                         <img src="image/dis.png" alt="">
                         <h3>Suplier</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse aliquam, et libero quam impedit iste</p>
+                        <p> adipisicing elit. Esse aliquam, et libero quam impedit iste</p>
                     </div>
                     <div class="column w3">
                         <img src="image/menu.jpg" alt="">
@@ -79,8 +89,9 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="our-work"> <!--Our Work-->
+    </section> -->
+    <!--Our Work-->
+    <section class="our-work"> 
         <div class="container">
             <div class="content">
                 <div class="row">
@@ -117,7 +128,8 @@
             </div>
         </div>
     </section>
-    <section class="product"> <!--Product-->
+     <!--Product-->
+    <section class="product">
             <div class="container">
                 <div class="content">
                     <div class="row">
@@ -148,7 +160,8 @@
                 </div>
             </div>
     </section>
-    <section class="review"> <!--Client Review-->
+    <!--Client Review-->
+    <section class="review"> 
         <div class="container">
             <div class="content">
                 <div class="row">
@@ -167,7 +180,8 @@
             </div>
         </div>
     </section>
-    <section class="newsletter"><!--Contact, Newsletter-->
+    <!--Contact, Newsletter-->
+    <section class="newsletter">
         <div class="container">
             <div class="content">
                 <div class="column">
